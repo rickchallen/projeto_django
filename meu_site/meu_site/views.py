@@ -6,3 +6,6 @@ def home(request):
 
 def teste(request):
     return render(request,'Teste2.html')
+
+def layout(request):
+    return render(request,'layout.html')
